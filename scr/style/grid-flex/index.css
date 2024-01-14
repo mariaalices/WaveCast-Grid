@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "aside header"
+    "aside main";
+    grid-template-columns: auto 1fr;
+}
+
+/* grid-template-areas: 
+    "aside header"
+    "aside main"; // DEFINE A ORDEM NO SITE */
+
+.cabecalho {
+    grid-area: header;
+}
+
+.menu-lateral {
+    grid-area: aside;
+}
+
+.principal {
+    grid-area: main;
+}
+
+
